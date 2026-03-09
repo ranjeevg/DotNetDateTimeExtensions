@@ -9,3 +9,4 @@
 /home/ranjeevji/RiderProjects/DateTimeAndDateOnlyExtensions/DateTimeAndDateOnlyExtensions/obj/Debug/net10.0/refint/DateTimeAndDateOnlyExtensions.dll
 /home/ranjeevji/RiderProjects/DateTimeAndDateOnlyExtensions/DateTimeAndDateOnlyExtensions/obj/Debug/net10.0/DateTimeAndDateOnlyExtensions.pdb
 /home/ranjeevji/RiderProjects/DateTimeAndDateOnlyExtensions/DateTimeAndDateOnlyExtensions/obj/Debug/net10.0/ref/DateTimeAndDateOnlyExtensions.dll
+/home/ranjeevji/RiderProjects/DateTimeAndDateOnlyExtensions/DateTimeAndDateOnlyExtensions/obj/Debug/net10.0/DateTimeAndDateOnlyExtensions.sourcelink.json
