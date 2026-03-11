@@ -5,6 +5,12 @@ public static class Extensions
     public static DateTime SubtractDays(this DateTime date, int days)
         => date.AddDays(-1 * days);
 
+    /// <summary>
+    /// Determine if this case is relevant.
+    /// </summary>
+    /// <param name="date"></param>
+    /// <param name="days"></param>
+    /// <returns></returns>
     public static DateTime SubtractDays(this DateTime date, double days)
         => date.AddDays(-1 * days);
 
@@ -47,7 +53,7 @@ public static class Extensions
     /// <param name="dayOfWeekIndex"></param>
     public static DateTime GetNthDayOfWeek(this DateTime dateTime, int dayOfWeekIndex)
     {
-        int difference = (int)dateTime.DayOfWeek - dayOfWeekIndex;
+        var difference = (int)dateTime.DayOfWeek - dayOfWeekIndex;
 
         return dateTime.SubtractDays(difference);
     }
