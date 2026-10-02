@@ -5,6 +5,8 @@ public static class ExtensionMethods
 {
     /// <summary>
     /// Syntactic sugar at its finest.
+    /// <br /><br />
+    ///  This is simply AddDays with the negative value of the time fed in.
     /// </summary>
     /// <param name="date">The starting <see cref="System.DateTeime">DateTime</see> object. </param>
     /// <param name="numDays">... this should be self-apparent, but this is the number of days you wish to go back in time by.</param>
