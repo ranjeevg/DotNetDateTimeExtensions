@@ -22,7 +22,7 @@ public static class ExtensionMethods
     /// <returns></returns>
     public static DateTime GetGivenDayOfWeek(this DateTime date, DayOfWeek day, bool allowPreviousWeeks = false)
     {
-        var difference = ((int)day - (int)date.DayOfWeek);
+        int difference = (int)day - (int)date.DayOfWeek;
         if (!allowPreviousWeeks && difference <= 7)
             difference += 7;
 
